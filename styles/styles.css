@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+/*
+.hero {
+  height: 50vh;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../assets/img/banner-bk.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
