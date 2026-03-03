@@ -73,11 +73,10 @@ button {
 }
 
 .card {
-  width: 30%;
+  width: 80%;
 }
 
 .card img {
-  width: 80px;
   margin-bottom: 20px;
 }
 
@@ -99,11 +98,14 @@ button {
   width: 100%;
 }
 
+.bigSection {
+  background: linear-gradient(-20deg, #00d084 55%, #fff 50%);
+}
+
 .safe {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #00d084;
   color: white;
 }
 
@@ -150,15 +152,16 @@ button {
   color: white;
 }
 
+.logos-section {
+  background-color: #d4d1d1c3;
+}
+
 .logos {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logos img {
-  width: 100px;
-}
 
 .contact {
   display: flex;
