@@ -68,18 +68,14 @@ button {
 
 .cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 50px;
 }
 
-.card {
-  width: 80%;
-}
-
-.card img {
+/*.card img {
   margin-bottom: 20px;
 }
-
+*/
 .inside {
   display: flex;
   align-items: center;
@@ -162,32 +158,85 @@ button {
   align-items: center;
 }
 
-
-.contact {
-  display: flex;
-  justify-content: space-between;
+.contactus {
   background-image: url("../assets/img/contact-bk.jpg");
   background-size: cover;
   background-position: center;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 80px 120px;
   color: white;
 }
 
-.contact-info {
-  width: 45%;
+.contactus_col {
+  max-width: 420px;
 }
 
-.contact-form {
-  width: 45%;
+.contactus_col h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contactus_col span {
+  font-weight: bold;
+}
+
+.form {
+  width: 500px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.mitad {
+  width: calc(50% - 10px);
+}
+
+.completo {
+  width: 100%;
+}
+
+.campo {
   display: flex;
   flex-direction: column;
 }
 
-.contact-form input,
-.contact-form textarea {
-  margin-bottom: 15px;
-  padding: 20px;
-  border-radius: 5px;
+.campo label {
+  color: #00f5c4;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.campo input,
+.campo textarea {
+  background: transparent;
+  border: 1px solid #00f5c4;
+  padding: 10px;
+  color: white;
+  outline: none;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+.form button {
+  width: 100%;
+  padding: 14px;
+
   border: none;
+  border-radius: 30px;
+
+  background: linear-gradient(90deg, #00f5c4, #16e5a7);
+  color: #003333;
+
+  font-weight: bold;
+  cursor: pointer;
 }
 
 footer {
